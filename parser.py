@@ -307,4 +307,4 @@ for i in enum1:
         if i[-1] == ',':
             print(f'    printf("{i[:-1]} : 0x%x\\n",{i[:-1]});')
         else:
-            print(f'    printf("{i[:-1]} : 0x%x\\n",{i});')
+            print(f'    printf("{i} : 0x%x\\n",{i});')
